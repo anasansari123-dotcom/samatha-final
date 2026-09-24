@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en-IN" data-root="" data-page="blog">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Solar Energy Insights and Planning Guides | Samatha Green Energy Solutions</title>
+  <meta name="description" content="Practical guides on rooftop solar, hybrid systems, battery storage, and renewable energy planning." />
+  <link rel="canonical" href="https://samatha.green/blog.html" />
+  <link rel="icon" href="images/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            "brand-green": "#2dbd6e",
+            "brand-green-dark": "#24a85f",
+            "brand-navy": "#071f3b",
+            "brand-blue": "#1d4f91",
+            "brand-muted": "#64748b"
+          }
+        }
+      }
+    };
+  </script>
+  
+</head>
+<body class="flex min-h-screen flex-col bg-white font-sans">
+  <div id="site-header"><header class="sticky top-0 z-50 border-b border-slate-200 bg-white shadow-[0_1px_0_rgba(15,23,42,0.04)]">
+      <div class="mx-auto flex h-[92px] w-full max-w-[1440px] items-center gap-4 px-4 sm:px-6 lg:px-8 xl:px-10">
+        <div class="flex min-w-0 flex-1 items-center justify-start">
+          <a href="index.html" class="flex shrink-0 items-center"><img src="images/logo.png" alt="Samatha Green Energy Solutions" class="h-[3.5rem] w-auto object-contain sm:h-[3.85rem] lg:h-[4.25rem]" /></a>
+        </div>
+        <nav id="desktop-nav" class="hidden shrink-0 items-center gap-5 xl:gap-7 lg:flex mr-10">
+          <a href="index.html" class="inline-flex items-center gap-1 whitespace-nowrap text-[0.92rem] font-medium text-slate-700 hover:text-brand-green">Home</a>
+          <div class="relative nav-dd" data-dd="products">
+            <button type="button" class="inline-flex items-center gap-1 whitespace-nowrap text-[0.92rem] font-medium text-slate-700 hover:text-brand-green" aria-haspopup="menu">Products <svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M2 3.5L5 6.5L8 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+            <div class="nav-dd-menu hidden absolute left-0 top-full z-50 pt-3">
+              <div class="min-w-[180px] rounded-2xl border border-slate-200 bg-white py-2 shadow-[0_12px_30px_rgba(15,23,42,0.12)]">
+                <a class="block px-5 py-2.5 text-[0.92rem] font-medium text-slate-700 hover:bg-slate-50 hover:text-brand-green" href="products/samatha-home.html#renemu-home">reneμ Home</a>
+                <a class="block px-5 py-2.5 text-[0.92rem] font-medium text-slate-700 hover:bg-slate-50 hover:text-brand-green" href="products/samatha-elite.html#renemu-elite">reneμ Elite</a>
+                <a class="block px-5 py-2.5 text-[0.92rem] font-medium text-slate-700 hover:bg-slate-50 hover:text-brand-green" href="products/samatha-plus.html#renemu-plus">reneμ Plus</a>
+              </div>
+            </div>
+          </div>
+          <div class="relative nav-dd" data-dd="solutions">
+            <button type="button" class="inline-flex items-center gap-1 whitespace-nowrap text-[0.92rem] font-medium text-slate-700 hover:text-brand-green" aria-haspopup="menu">Solutions <svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M2 3.5L5 6.5L8 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+            <div class="nav-dd-menu hidden absolute left-0 top-full z-50 pt-3">
+              <div class="min-w-[180px] rounded-2xl border border-slate-200 bg-white py-2 shadow-[0_12px_30px_rgba(15,23,42,0.12)]">
+                <a class="block px-5 py-2.5 text-[0.92rem] font-medium text-slate-700 hover:bg-slate-50 hover:text-brand-green" href="solutions/on-grid.html#on-grid">On grid</a>
+                <a class="block px-5 py-2.5 text-[0.92rem] font-medium text-slate-700 hover:bg-slate-50 hover:text-brand-green" href="solutions/off-grid.html#off-grid">Off grid</a>
+                <a class="block px-5 py-2.5 text-[0.92rem] font-medium text-slate-700 hover:bg-slate-50 hover:text-brand-green" href="solutions/hybrid.html#hybrid">Hybrid</a>
+                <a class="block px-5 py-2.5 text-[0.92rem] font-medium text-slate-700 hover:bg-slate-50 hover:text-brand-green" href="solutions/ess.html#ess">ESS</a>
+              </div>
+            </div>
+          </div>
+          <a href="services.html" class="inline-flex items-center gap-1 whitespace-nowrap text-[0.92rem] font-medium text-slate-700 hover:text-brand-green">Services</a>
+          <a href="about.html" class="inline-flex items-center gap-1 whitespace-nowrap text-[0.92rem] font-medium text-slate-700 hover:text-brand-green">About Us</a>
+          <a href="blog.html" class="inline-flex items-center gap-1 whitespace-nowrap text-[0.92rem] font-medium text-brand-green">Blog</a>
+          <a href="contact.html" class="inline-flex items-center gap-1 whitespace-nowrap text-[0.92rem] font-medium text-slate-700 hover:text-brand-green">Contact Us</a>
+        </nav>
+        <div class="flex flex-1 items-center justify-end gap-2.5">
+          <div id="desktop-actions" class="hidden items-center gap-2.5 lg:flex">
+            <button type="button" class="js-open-search flex h-10 w-10 items-center justify-center rounded-full bg-[#eef3f8] text-brand-blue transition hover:bg-[#e2ebf4]" aria-label="Search"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="1.8"/><path d="M20 20L16.5 16.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button>
+            <a href="index.html#download" class="inline-flex h-10 items-center gap-2 whitespace-nowrap rounded-full border border-[#b8cce3] bg-white px-4 text-sm font-semibold text-brand-blue transition hover:border-brand-blue hover:bg-[#f5f9fd]"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M12 4V15M12 15L8 11M12 15L16 11" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M5 19H19" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>Download App</a>
+            <button type="button" class="js-open-quote inline-flex h-10 items-center whitespace-nowrap rounded-full bg-brand-green px-5 text-sm font-semibold text-white shadow-[0_8px_20px_rgba(45,189,110,0.28)] transition hover:bg-brand-green-dark">Get a Free Quote</button>
+          </div>
+          <button type="button" class="js-open-search inline-flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 text-slate-700 lg:hidden" aria-label="Search"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="1.8"/><path d="M20 20L16.5 16.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button>
+          <button type="button" id="mobile-toggle" class="inline-flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 text-slate-700 lg:hidden" aria-label="Toggle menu"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M4 7H20M4 12H20M4 17H20" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button>
+        </div>
+      </div>
+      <div id="mobile-menu" class="hidden border-t border-slate-100 bg-white px-4 py-4 lg:hidden">
+        <nav class="flex flex-col gap-1">
+          <a href="index.html" class="py-2 text-base font-medium text-slate-700 hover:text-brand-green">Home</a>
+          <button type="button" class="js-mobile-dd flex w-full items-center justify-between py-2 text-base font-medium text-slate-700 hover:text-brand-green" data-target="m-products">Products <svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M2 3.5L5 6.5L8 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+          <div id="m-products" class="hidden mb-2 ml-3 space-y-1 border-l border-slate-200 pl-3">
+            <a class="block py-1.5 text-sm text-slate-600" href="products/samatha-home.html#renemu-home">reneμ Home</a>
+            <a class="block py-1.5 text-sm text-slate-600" href="products/samatha-elite.html#renemu-elite">reneμ Elite</a>
+            <a class="block py-1.5 text-sm text-slate-600" href="products/samatha-plus.html#renemu-plus">reneμ Plus</a>
+          </div>
+          <button type="button" class="js-mobile-dd flex w-full items-center justify-between py-2 text-base font-medium text-slate-700 hover:text-brand-green" data-target="m-solutions">Solutions <svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M2 3.5L5 6.5L8 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+          <div id="m-solutions" class="hidden mb-2 ml-3 space-y-1 border-l border-slate-200 pl-3">
+            <a class="block py-1.5 text-sm text-slate-600" href="solutions/on-grid.html#on-grid">On grid</a>
+            <a class="block py-1.5 text-sm text-slate-600" href="solutions/off-grid.html#off-grid">Off grid</a>
+            <a class="block py-1.5 text-sm text-slate-600" href="solutions/hybrid.html#hybrid">Hybrid</a>
+            <a class="block py-1.5 text-sm text-slate-600" href="solutions/ess.html#ess">ESS</a>
+          </div>
+          <a href="services.html" class="py-2 text-base font-medium text-slate-700 hover:text-brand-green">Services</a>
+          <a href="about.html" class="py-2 text-base font-medium text-slate-700 hover:text-brand-green">About Us</a>
+          <a href="blog.html" class="py-2 text-base font-medium text-brand-green">Blog</a>
+          <a href="contact.html" class="py-2 text-base font-medium text-slate-700 hover:text-brand-green">Contact Us</a>
+        </nav>
+        <div class="mt-4 flex flex-col gap-2">
+          <a href="index.html#download" class="inline-flex h-11 items-center justify-center gap-2 rounded-full border border-[#b8cce3] text-sm font-semibold text-brand-blue">Download App</a>
+          <button type="button" class="js-open-quote inline-flex h-11 items-center justify-center rounded-full bg-brand-green text-sm font-semibold text-white">Get a Free Quote</button>
+        </div>
+      </div>
+    </header></div>
+  <main class="flex-1">
+
+
+<section class="relative min-h-[360px] overflow-hidden bg-[#0A4D8D] sm:min-h-[420px]">
+  <img src="images/slide-2.png" alt="" class="absolute inset-0 h-full w-full object-cover object-pos-70" />
+  <div class="absolute inset-0 bg-gradient-to-r from-[#0A4D8D] via-[#0A4D8D]/90 to-[#0A4D8D]/42"></div>
+  <div class="relative z-10 mx-auto flex min-h-[360px] max-w-[1280px] flex-col justify-center px-4 py-16 sm:min-h-[420px] sm:px-6 lg:px-8">
+    <p class="text-[14px] font-extrabold uppercase tracking-[0.18em] text-[#2cb673]">SOLAR ENERGY SOLUTIONS</p>
+    <h1 class="page-hero-title mt-3 max-w-3xl font-extrabold text-white">Blog</h1>
+    <p class="page-desc-on-dark mt-4 max-w-2xl">Insights and practical guidance for choosing, installing, and maintaining renewable energy systems.</p>
+  </div>
+</section>
+<section class="bg-[#f4f8fc] px-4 py-16 sm:px-6 sm:py-20">
+  <div class="mx-auto max-w-[920px] text-center"><p class="text-[14px] font-extrabold tracking-[0.16em] text-[#2cb673]">LATEST ARTICLES</p><h2 class="page-title mt-3 font-extrabold text-[#0A2540]">Renewable Energy Insights</h2><p class="page-desc mx-auto mt-4 max-w-2xl">Explore practical guidance on solar, battery storage, hybrid energy systems, and smart renewable energy planning.</p></div>
+  <div class="mx-auto mt-10 grid max-w-[1200px] gap-6 md:grid-cols-2 lg:grid-cols-3">
+    <article class="hover-card flex h-full flex-col rounded-[18px] border border-[#E6EDF4] bg-white p-6"><span class="grid h-12 w-12 place-items-center rounded-xl bg-[#2cb673]/12 text-[#2cb673]"><svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 7v14"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg></span><p class="mt-5 text-[14px] font-extrabold uppercase tracking-[0.16em] text-[#2cb673]">ENERGY PLANNING</p><h3 class="mt-3 !text-[24px] font-extrabold text-[#0A2540]">How to Choose the Right Renewable Energy System</h3><p class="page-desc mt-3 flex-1">A practical look at matching solar, hybrid, BESS, and microgrid options to your site, energy usage, and backup requirements.</p><p class="mt-6 text-sm font-semibold text-[#6B7A8D]">May 2026</p></article>
+    <article class="hover-card flex h-full flex-col rounded-[18px] border border-[#E6EDF4] bg-white p-6"><span class="grid h-12 w-12 place-items-center rounded-xl bg-[#2cb673]/12 text-[#2cb673]"><svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 7v14"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg></span><p class="mt-5 text-[14px] font-extrabold uppercase tracking-[0.16em] text-[#2cb673]">BATTERY STORAGE</p><h3 class="mt-3 !text-[24px] font-extrabold text-[#0A2540]">Why BESS Matters for Reliable Clean Power</h3><p class="page-desc mt-3 flex-1">Battery Energy Storage Systems improve backup, peak load management, renewable energy utilization, and long-term energy reliability.</p><p class="mt-6 text-sm font-semibold text-[#6B7A8D]">May 2026</p></article>
+    <article class="hover-card flex h-full flex-col rounded-[18px] border border-[#E6EDF4] bg-white p-6"><span class="grid h-12 w-12 place-items-center rounded-xl bg-[#2cb673]/12 text-[#2cb673]"><svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 7v14"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg></span><p class="mt-5 text-[14px] font-extrabold uppercase tracking-[0.16em] text-[#2cb673]">SOLAR SOLUTIONS</p><h3 class="mt-3 !text-[24px] font-extrabold text-[#0A2540]">Understanding On-Grid, Off-Grid, and Hybrid Systems</h3><p class="page-desc mt-3 flex-1">Compare the three common solar system types and learn which one fits homes, businesses, industries, and remote sites.</p><p class="mt-6 text-sm font-semibold text-[#6B7A8D]">May 2026</p></article>
+  </div>
+</section>
+
+  </main>
+  <div id="site-footer" data-cta="true"></div>
+  <script src="js/icons.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
